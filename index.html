@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ユアコーディング</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <!-- Google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&display=swap" rel="stylesheet">
+  <!-- smooth-scroll -->
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.0/smooth-scroll.min.js"></script>
+  <!-- fade-in animation -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="inner">
+      <div class="header-logo">ユアコーディング</div>
+      <nav class="header-navi">
+        <div class="header-navi__btn pcnone" onclick="document.querySelector('.header-navi').classList.toggle('open');">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="header-navi__mask" onclick="document.querySelector('.header-navi').classList.toggle('open');"></div>
+        <ul class="header-navi__list">
+          <li class="header-navi__item"><a href="#features" data-scroll>特徴</a></li>
+          <li class="header-navi__item"><a href="#price" data-scroll>価格</a></li>
+          <li class="header-navi__item"><a href="#contact" data-scroll>お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="contact-btn"><a href="#contact" data-scroll>お問い合わせ</a></div>
+    </div>
+  </header>
+
+  <section id="main" class="main">
+    <div class="inner">
+      <div class="main-text">
+        <h2 class="main-text__lead">
+          コーディングの手間を
+          <br>最小に、デザインに注力
+          <br>する助けに
+        </h2>
+        <div class="main-text__text">
+          ユアコーディングはコーディングに
+          <br>特化したフリーランス
+          <br>デザインに注力されたい方の
+          <br>助けになります
+        </div>
+        <div class="contact-btn"><a href="#contact" data-scroll>お問い合わせ</a></div>
+      </div>
+      <div class="main-image">
+        <img src="image/main.png">
+      </div>
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2 class="section-title">ユアコーディング3つの特徴</h2>
+    <div class="section-title-en">FEATURES</div>
+    <div class="features-box cooding" data-aos="fade-up" data-aos-duration="2000">
+      <h3 class="features-box__title">高速コーディング</h3>
+      <div class="features-box__contents">
+        <div class="features-box-contents__img">
+          <img src="image/feature01.png">
+        </div>
+        <div class="features-box-contents__text">
+          <h4 class="features-box-contents-text__lead">
+            コーディングに特化したフリーランスのため、<br class="spnone">スピード感を持った開発が可能。
+          </h4>
+          <p class="features-box-contents-text__detail">
+            開発は常にスピードとの勝負です。
+            <br>ユアコーディングはコーディングに特化しているため、<br class="spnone">素早く納品することで、クライアントがデザインに注力<br class="spnone">する助けとなります。
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="features-box quority" data-aos="fade-up" data-aos-duration="2000">
+      <h3 class="features-box__title">高品質</h3>
+      <div class="features-box__contents">
+        <div class="features-box-contents__text">
+          <h4 class="features-box-contents-text__lead">
+            正しいマークアップで、
+            <br>内部SEOに強いコーディングを
+            <br>デフォルトで行います。
+          </h4>
+          <p class="features-box-contents-text__detail">
+            ユアコーディングでは、「予測しやすい」「再利用しやすい」<br class="spnone">「保守しやすい」「拡張しやすい」と言った設計をもとに<br
+              class="spnone">きちんとコーディングを行うため、納品後も安心です。
+          </p>
+        </div>
+        <div class="features-box-contents__img">
+          <img src="image/feature02.png">
+        </div>
+      </div>
+    </div>
+    <div class="features-box response" data-aos="fade-up" data-aos-duration="2000">
+      <h3 class="features-box__title">迅速なレスポンス</h3>
+      <div class="features-box__contents">
+        <div class="features-box-contents__img">
+          <img src="image/feature03.png">
+        </div>
+        <div class="features-box-contents__text">
+          <h4 class="features-box-contents-text__lead">
+            原則いただいたメッセージは、
+            <br>業務時間内であれば6時間以内に
+            <br>お返しいたします。
+          </h4>
+          <p class="features-box-contents-text__detail">
+            連絡を返さないフリーランスが多い中、<br class="spnone">ユアコーディングでは定期的な進捗報告など、<br class="spnone">社会人としての基本を踏まえて仕事を行なって<br
+              class="spnone">おります。
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="price" class="price">
+    <div class="inner">
+      <h2 class="section-title">価格</h2>
+      <div class="section-title-en">PRICE</div>
+      <table class="price-table" data-aos="fade-up" data-aos-duration="2000">
+        <tr>
+          <th>HTMLコーディング<br class="pcnone">トップページ</th>
+          <td>30.000円〜</td>
+        </tr>
+        <tr>
+          <th>HTMLコーディング<br class="pcnone">下層1ページ</th>
+          <td>10.000円〜</td>
+        </tr>
+        <tr>
+          <th>HTML+WordPress<br class="pcnone">トップページ</th>
+          <td>55.000円〜</td>
+        </tr>
+        <tr>
+          <th>HTML+WordPress<br class="pcnone">下層1ページ</th>
+          <td>15.000円〜</td>
+        </tr>
+      </table>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="inner">
+      <h2 class="section-title">よくある質問</h2>
+      <div class="section-title-en">FAQ</div>
+      <div class="faq-box" data-aos="fade-up" data-aos-duration="2000">
+        <div class="faq-box__question" onclick="document.querySelector('.answer1').classList.toggle('open');">
+          デザインから一貫してお願いすることは可能でしょうか？
+        </div>
+        <div class="faq-box__answer answer1 open">
+          ユアコーディングはコーディングに特化したサービスですので、デザインからお受けすることは基本的にありません。
+          <br>ただデザインを行う際は提携しているデザイナーと連携して対応させていただきますので、別途ご連絡ください。
+        </div>
+        <div class="faq-box__question" onclick="document.querySelector('.answer2').classList.toggle('open');">
+          WordPressのカスタマイズをお願いすることも可能でしょうか？
+        </div>
+        <div class="faq-box__answer answer2">
+          可能です。ただECサイトなどの場合は構築難易度や工数の関係で綿密にヒアリングさせていただきたく思います。
+        </div>
+        <div class="faq-box__question" onclick="document.querySelector('.answer3').classList.toggle('open');">
+          コーディングのスピード感が知りたい
+        </div>
+        <div class="faq-box__answer answer3">
+          HTMLレスポンシブ込み5ページで1週間、10ページで2週間、WordPressサイト5ページで2週間、10ページで3週間が目安に<br class="spnone">なります。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="blog">
+    <h2 class="section-title">ブログ</h2>
+    <div class="section-title-en">BLOG</div>
+    <div class="blog-article" data-aos="fade-up" data-aos-duration="2000">
+      <div class="blog-article-box">
+        <div class="blog-article-box__pic article1"></div>
+        <div class="blog-article-box__text">
+          サイトをリニューアルオープンしました。
+        </div>
+        <div class="blog-article-box__date">
+          2020.01.23
+        </div>
+      </div>
+      <div class="blog-article-box">
+        <div class="blog-article-box__pic article2"></div>
+        <div class="blog-article-box__text">
+          WebサイトでSEO内部施策に適したコーディングでどれぐらいサイトが早くなるのか検証してみました。
+        </div>
+        <div class="blog-article-box__date">
+          2020.01.24
+        </div>
+      </div>
+      <div class="blog-article-box">
+        <div class="blog-article-box__pic article3"></div>
+        <div class="blog-article-box__text">
+          ユアコーディングではデザイナーの方を広く募集しています。
+        </div>
+        <div class="blog-article-box__date">
+          2020.01.25
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="works">
+    <h2 class="section-title">制作実績</h2>
+    <div class="section-title-en">WORKS</div>
+    <div class="inner">
+      <!-- Slider main container -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="swiper-slide__pic slide1"></div>
+            <div class="swiper-slide__lead">
+              コーディングカンファレンスのイベントLPの制作を行いました！
+            </div>
+            <div class="swiper-slide__text">
+              採用技術：jQuery,WordPress
+              <br>実装期間：4週間
+              <br>担当コーダー：石井
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__pic slide1"></div>
+            <div class="swiper-slide__lead">
+              コーディングカンファレンスのイベントLPの制作を行いました！
+            </div>
+            <div class="swiper-slide__text">
+              採用技術：jQuery,WordPress
+              <br>実装期間：4週間
+              <br>担当コーダー：石井
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__pic slide2"></div>
+            <div class="swiper-slide__lead">
+              株式会社サンプル様採用サイトのコーディングを行いました！
+            </div>
+            <div class="swiper-slide__text">
+              採用技術：jQuery,Bootstrap4
+              <br>実装期間：2週間
+              <br>担当コーダー：石井
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__pic slide3"></div>
+            <div class="swiper-slide__lead">
+              株式会社サンプル様通販サイトのコーディングを行いました！
+            </div>
+            <div class="swiper-slide__text">
+              採用技術：jQuery,Bootstrap4
+              <br>実装期間：6週間
+              <br>担当コーダー：石井
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide__pic slide1"></div>
+            <div class="swiper-slide__lead">
+              コーディングカンファレンスのイベントLPの制作を行いました！
+            </div>
+            <div class="swiper-slide__text">
+              採用技術：jQuery,WordPress
+              <br>実装期間：4週間
+              <br>担当コーダー：石井
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="inner">
+      <h2 class="section-title">お問い合わせ</h2>
+      <div class="section-title-en">CONTACT</div>
+      <p class="contact-text">
+        コーディングの人出が足りないとき、
+        <br>あなたの力になります
+      </p>
+      <form method="POST" class="contact-form" data-aos="fade-up" data-aos-duration="2000">
+        <div class="contact-form__item">
+          <label class="label" for="name-lavel">お名前</label>
+          <input id="name-lavel" type="text" name="name">
+        </div>
+        <div class="contact-form__item">
+          <label class="label" for="mail">メールアドレス</label>
+          <input id="mail" type="email" name="mail">
+        </div>
+        <div class="contact-form__item">
+          <label class="label" for="comment">お問い合わせ内容</label>
+          <textarea id="comment" name="comment"></textarea>
+        </div>
+        <input type="submit" value="送信する">
+      </form>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__copy">&copy;ユアコーディング, All Rights Reserved.</div>
+  </footer>
+  <!-- smooth-scroll -->
+  <script>
+    const scroll = new SmoothScroll('a[href*="#"]', {
+      speedAsDuration: true,
+      speed: 500,
+      easing: 'easeInOutCubic',
+      offset: 50
+    });
+  </script>
+  <!-- fade-in animate -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  <!-- swiper -->
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+  <script>
+    var mySwiper = new Swiper('.swiper-container', {
+      // Optional parameters
+      centeredSlides: true,
+      slidesPerView: 2,
+      spaceBetween: 56,
+      loop: true,
+      loopedSlides: 1,
+      reverseDirection: true,
+      autoplay: {
+        delay: 5000,
+        speed: 1000
+      },
+      disableOnInteraction: true,
+      breakpoints: {
+        // 320px以上のとき
+        375: {
+          centeredSlides: true,
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        // 961px以上のとき
+        961: {
+          slidesPerView: 2,
+          spaceBetween: 56
+        }
+      }
+    })
+  </script>
+</body>
+
+</html>
